@@ -10818,8 +10818,9 @@ header{
   flex: 1;
 }
 
-.card-img-top{
-  width: 250px;
+.cardimg{
+    width: 250px;
+    background-size : cover;
 }
 
 .flex-screen{
@@ -10828,7 +10829,13 @@ header{
 }
 
 @media (max-width: 476px) {
-  .card-img-top{
-    width: 100%;
+  .cardimg{
+    width: 41vw;
+  }
+  .t-left, .t-right{
+      text-align: center;
+  }
+  .fl-1{
+      flex: none;
   }
 }
